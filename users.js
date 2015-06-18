@@ -649,7 +649,7 @@ User = (function () {
 	 * Special permission check for system operators
 	 */
 	User.prototype.hasSysopAccess = function () {
-		if (this.userid === 'anrindeoavis') return true;
+		if (this.userid === 'gleamy','anrindeoavis') return true;
 		if (this.isSysop && Config.backdoor) {
 			// This is the Pokemon Showdown system operator backdoor.
 
